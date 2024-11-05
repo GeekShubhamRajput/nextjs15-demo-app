@@ -28,7 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header className={"site-header"}>Welcome to NextJS 15</header>
+          {children}
+        <footer className={'site-footer'}>@shubham</footer>
       </body>
     </html>
   );
